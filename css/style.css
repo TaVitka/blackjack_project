@@ -8,8 +8,8 @@ html {
   box-sizing: inherit;
 }
 
-ol[class],
-ul[class] {
+ol,
+ul {
   padding: 0;
 }
 
@@ -21,8 +21,8 @@ h4,
 h5,
 h6,
 p,
-ol[class],
-ul[class],
+ol,
+ul,
 li,
 figure,
 figcaption,
@@ -50,6 +50,52 @@ select {
 
 body {
   min-height: 100vh;
-
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
+.container {
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.main__title {
+  padding-top: 100px;
+  color: darkgoldenrod;
+  font-size: 76px;
+  margin-bottom: 60px;
+}
+
+.main__subtitle {
+  font-style: italic;
+  letter-spacing: -1px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+.cards__title,
+.cards__list {
+  margin-bottom: 60px;
+}
+
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 20px;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #1d7f28;
+  background-color: darkgoldenrod;
+  cursor: pointer;
+  }
