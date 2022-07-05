@@ -85,6 +85,10 @@ body {
   margin-bottom: 60px;
 }
 
+.card__sum {
+  text-transform: uppercase;
+}
+
 
 .btn {
   display: block;
